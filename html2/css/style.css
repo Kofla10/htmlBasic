@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+/* forma de aplicar css personalizado */
+#text{
+    color: red;
+    font-size: 23px;
+}
+
+.test{
+    font-size: 15px;
+    color: white;
+}
+
+.fondo{
+    background-color: black;
+}
