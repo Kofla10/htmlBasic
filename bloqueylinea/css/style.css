@@ -1,0 +1,11 @@
+h1{
+    background:salmon;
+    display: inline-block;
+}
+
+.bloque{
+    display: block;
+    background: salmon;
+    display: flex;
+    width: 15%;
+}

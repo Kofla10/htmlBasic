@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea one menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <header class="headerm"> -->
+        <nav>
+            <button class="nav-button" onclick="accion()">Munu</button>
+            <a class="nav-link hidden-a" href="#">Home</a>
+            <a class="nav-link hidden-a" href="#">About</a>
+            <a class="nav-link hidden-a" href="#">Products</a>
+            <a class="nav-link hidden-a" href="#">Services</a>
+            <a class="nav-link hidden-a" href="#">Contact</a>
+        </nav>
+
+    <!-- </header> -->
+    <script>
+        function accion(){
+            let ancla = document.getElementsByClassName('nav-link');
+            for (let i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle('hidden-a');
+                ancla[i].classList.toggle('change-color');
+            }
+        }
+    </script>
+</body>
+</html>

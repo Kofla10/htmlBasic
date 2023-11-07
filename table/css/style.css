@@ -1,0 +1,72 @@
+body{
+    /* background-color: snow; */
+    font-family: 'Buda', serif;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: rgba(244, 255, 248, 0.596);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888; /* prar realizar las sombras, con el color negativo, las sombras se invierten*/
+    width: 24%;
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 30px;
+    color: aqua;
+}
+
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    /* border: 1px solid #222; */
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    width: 90%;
+}
+
+.btn-precio:hover{
+    color: salmon;
+    background:dimgray;
+}
+
+@media(max-width: 1020px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

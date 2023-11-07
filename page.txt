@@ -1,0 +1,4 @@
+ page for fonts : https: //fonts.google.com/specimen/Buda
+ page for colors: https: //colorhunt.co/
+
+ buscar en la pagina de moxilla.org, se pueden encontrar varios ejemplos de estilos css

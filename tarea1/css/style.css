@@ -1,0 +1,50 @@
+.nav-link{
+    background     : salmon;
+    color          : #ffff;
+    padding        : 10px 30px;
+    display        : inline-block;
+    text-decoration: none;
+}
+
+/* el hover es cuano el puntero este ensima de la propiedad, no es necesario hacer le click */
+.nav-link:hover{
+    background: rosybrown;
+}
+
+nav{
+    background     : slateblue;
+    padding        : 10px;
+    display        : flex;
+    justify-content: space-around;  /*este permite ordenar uno al lado de otro, con algunos espacios*/
+
+}
+
+.nav-button{
+    background: salmon;
+    color     : white;
+    padding: 10px 0;
+    border: 2px solid;
+    display: none;
+}
+
+@media(max-width: 600px){
+    nav{
+        background    : aqua;
+        padding       : 30px;
+        flex-direction: column;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+
+    .hidden-a{
+        display: none;
+    }
+    .change-color{
+        color: blue;
+    }
+}
